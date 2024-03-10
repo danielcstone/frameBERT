@@ -8,7 +8,7 @@ from transformers import *
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 from keras.preprocessing.sequence import pad_sequences
 
-from frameBERT.koreanframenet import koreanframenet
+# from frameBERT.koreanframenet import koreanframenet
 from frameBERT.src import kotimex
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
